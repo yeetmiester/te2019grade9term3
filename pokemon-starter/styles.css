@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	display: flex;
 	flex-direction: column;
-}
+	background-color: red; 
 
 header {
 	width: 100%;
@@ -16,16 +16,22 @@ header {
 
 .cards {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
 }
 
 #first {
 	background-color: pink;
+	justify-content: space-around;
 }
 
 #second {
 	background-color: blue;
+	justify-content: space-around;
+}
+
+#third {
+	background-color: yellow;
 }
 
 .poke-img {
